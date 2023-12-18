@@ -1,0 +1,158 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+ background:black;
+  color: white;
+}
+
+
+/*-----STYLING OF HEADER SECTION -----*/
+ #header h1{
+font-size: 3rem ;
+font-family: 'Times New Roman', Times, serif ;
+height: 10%;
+width: 100%;
+justify-content: center;
+text-align: center;
+margin-bottom: 20px;
+}
+
+/*---STYLING OF CHART (CONTAINER ,TOOLTIP, X-AXIS LABEL )-----*/
+.chart-container {
+  position: relative;
+  
+}
+.chart-tooltip {
+  position: absolute;
+  display: none;
+  padding: 5px;
+  background-color: rgb(1, 1, 69);
+  color: #fff;
+  font-size: 12px;
+  border-radius: 5px;
+  pointer-events: none;
+}
+.x-axis-label {
+  position: absolute;
+  bottom: -20px;
+  font-size: 10px;
+  color: #888;
+}
+
+/*---STOCK CHART SECTION------*/
+#stock-chart{
+ background:rgb(1, 1, 69);
+  border-radius: 10px;
+  width: 60%;
+  height: 65% ;
+  margin-top: 20px;
+  padding-top: 20px;
+
+}
+
+#chart-canvas{
+  margin-top: 10px;
+  padding-top: 10px;
+}
+
+/*-----STYLING OF STOCK -CHART BUTTONS------*/
+#buttons button {
+  font-size: 1rem ;
+  background-color: rgb(2, 2, 116);
+  font-size: 2rem ;
+  color: white;
+  border-radius:50px;
+  border: none;
+  margin-right: 40px;
+  margin-left:100px ;
+  width: 150px ;
+
+}
+
+#buttons button:hover{
+  opacity: 1;
+  background-color: #1111f5;
+  border:  1px solid #fff;
+  cursor: pointer;
+  color: white;
+  border-radius: 20px;
+ 
+}
+
+/*---SUMMARY SECTION------*/
+#summary{
+  margin-top: 20px;
+  width: 60%; 
+}
+#summary p{
+  font-size: 1.4rem;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  font-family: ' Times, serif;
+}
+#summary div span {
+ padding:20px;
+}
+
+#name{
+  font-size: 20px;
+  font-weight: bolder;
+}
+#profit{
+  font-size: 20px;
+  font-weight: bolder;
+}
+#bookValue{
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+#container{
+  display: flex;
+}
+
+/*---STYLING OF STOCK LIST SECTION------*/
+#stock-list{
+  position: absolute;
+  right: 200px;
+  padding: 8px ;
+  font-size: 1.6rem ;
+}
+/*---STYLING OF STOCK LIST BUTTON------*/
+#stock-list button{
+  font-size: 1.3rem ;
+  width: 100px ;
+  height: 50px ;
+}
+
+.list{
+  position: relative;
+  right: 0px;
+  height: 30px;
+  width: 60px;
+  color: white;
+  justify-content: center;
+  align-items: center ;
+  margin: 5px;
+  border-radius: 5px;
+  background-color: rgb(1, 1, 102);
+}
+.list:hover{
+  background-color: #1111f5;
+  border:  1px solid #fff;
+  cursor: pointer;
+}
+.list span{
+  margin-right: 10px ;
+}
+#button{
+  margin-top:30px ;
+  display: flex;
+  justify-content: center;
+  padding-left: 10px;
+ 
+}
+.list_i span{
+  margin: 10px;
+}
